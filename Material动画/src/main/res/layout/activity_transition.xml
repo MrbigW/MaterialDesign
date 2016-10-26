@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_transition"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wrk.materialanimation.TransitionActivity">
+
+
+    <Button
+        android:background="@android:color/holo_red_light"
+        android:textColor="@android:color/black"
+        android:textAllCaps="false"
+        android:id="@+id/sample1_button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"/>
+
+    <Button
+        android:background="@android:color/holo_red_light"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:id="@+id/sample1_button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit (overriding return transition)"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/sample1_button6"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
